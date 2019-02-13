@@ -1,0 +1,104 @@
+.graph_desc{
+  color: seagreen;
+  font-size: 25px;
+}
+h1{
+  color:seagreen;
+  font-size:35px;
+}
+h2{
+  color:seagreen;
+}
+h5{
+  color:rgba(22, 22, 107, 0.993);
+}
+h6{
+  color:rgba(22, 22, 107, 0.993);
+}
+#graph_desc_para {
+  font-style: bold;
+  font-size:14px;
+  color: black;
+}
+
+img
+{
+  border-radius:8px;
+  padding: 5px;
+  width: 700px;
+}
+
+.intro_graphs{
+  padding: 5px;
+  width: 350px;
+  border-radius:10px;
+}
+
+.table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 1.0rem;
+  text-align: center;
+  font-style: Courier;
+  margin-left:  20px;
+  margin-right:  20px;
+}
+
+td, th {
+  border: 1px solid rgb(64, 184, 134);
+  padding: 10px 20px;
+  text-align: center;
+  font-style: Courier;
+}
+
+th {
+  background-color: rgb(236, 76, 76);
+  text-align: center;
+  font-style: Courier;
+}
+
+td {
+  text-align: center;
+  font-style: Courier;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(148, 148, 148);
+
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(245,245,245);
+}
+
+caption {
+  padding: 10px;
+}
+
+#opening_para{
+
+  font-size: 16px;
+  padding:5px;
+  font-style: initial;
+}
+
+.compare{
+  font-size: 16px;
+  padding:5px;
+  font-style: initial;
+  color: seagreen;
+}
+
+@media (max-width: 480px) {
+  .navbar li {
+    padding: 15px;
+  }
+  .box {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+}
+
+
